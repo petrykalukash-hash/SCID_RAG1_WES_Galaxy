@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Reanaliza publicznych danych WES SRR4088561 w kierunku wariantu RAG1 związanego z SCID"
+message: "If you use this educational Galaxy WES reanalysis, please cite the Zenodo record."
+type: dataset
+authors:
+  - family-names: "Petryka"
+    given-names: "Łukasz"
+abstract: "Educational-diagnostic Galaxy workflow for WES reanalysis of SRR4088561 with targeted interpretation of RAG1 c.2308G>A, p.E770K in the context of SCID."
+keywords:
+  - WES
+  - Galaxy
+  - SCID
+  - RAG1
+  - variant interpretation
+  - bioinformatics
+license: CC-BY-4.0
+date-released: "2026-05-17"
+repository-code: "https://github.com/USERNAME/SCID_RAG1_WES_Galaxy"
+doi: "10.5281/zenodo.TODO"

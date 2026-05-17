@@ -1,0 +1,4468 @@
+[VEP run statistics]
+VEP version (API)	 115.2 (115)
+Annotation sources	Cache: /data/db/data_managers/vep/106/hg38/default/homo_sapiens/106_GRCh38
+Species	homo_sapiens
+Command line options	--af --allele_number --appris --biotype --cache  --cache_version 106 --canonical --ccds --check_existing --coding_only --dir_cache /data/db/data_managers/vep/106/hg38/default --domains --exclude_null_alleles --fasta reference.fa --gene_phenotype --hgvs --hgvsg --input_file /data/cache07/object_store_cache/c/c/d/dataset_ccdc401b-251e-4010-9dd3-1c55b1a5b57c.dat --mane --mane_select --max_af --no_escape --no_intergenic --numbers --offline --output_file MainOutput.vcf --polyphen b --protein --pubmed --show_ref_allele --sift b --species homo_sapiens --stats_text --symbol --terms SO --total_length --transcript_version --tsl --uniprot --var_synonyms --variant_class --vcf --vcf_info_field CSQ --xref_refseq
+Start time	2026-05-13 10:35:12
+End time	2026-05-13 12:49:27
+Run time	8055 seconds
+Input file	/data/cache07/object_store_cache/c/c/d/dataset_ccdc401b-251e-4010-9dd3-1c55b1a5b57c.dat
+Output file	MainOutput.vcf
+
+[Data version]
+1000genomes	phase3
+COSMIC	92
+ClinVar	202109
+ESP	V2-SSA137
+HGMD-PUBLIC	20204
+assembly	GRCh38.p13
+dbSNP	154
+gencode	GENCODE 40
+genebuild	2014-07
+gnomAD	r2.1.1
+polyphen	2.2.2
+regbuild	1.0
+sift	sift5.2.2
+
+[General statistics]
+Lines of input read	2938254
+Variants processed	2934639
+Variants filtered out	0
+Novel / existing variants	1183892 (40.3) / 1750747 (59.7)
+Overlapped genes	17091
+Overlapped transcripts	77517
+Overlapped regulatory features	-
+
+[Variant classes]
+indel	24815
+substitution	74589
+insertion	96576
+deletion	161581
+SNV	2577078
+
+[Consequences (most severe)]
+splice_acceptor_variant	1124
+splice_donor_variant	1212
+stop_gained	3522
+frameshift_variant	3074
+stop_lost	192
+start_lost	169
+inframe_insertion	133
+inframe_deletion	308
+missense_variant	53023
+protein_altering_variant	21
+splice_donor_5th_base_variant	699
+splice_region_variant	7210
+splice_donor_region_variant	1636
+splice_polypyrimidine_tract_variant	6338
+incomplete_terminal_codon_variant	3
+start_retained_variant	1
+stop_retained_variant	30
+synonymous_variant	23502
+coding_sequence_variant	10
+mature_miRNA_variant	90
+5_prime_UTR_variant	18019
+3_prime_UTR_variant	72553
+non_coding_transcript_exon_variant	81247
+intron_variant	1463432
+upstream_gene_variant	125795
+downstream_gene_variant	101470
+intergenic_variant	969826
+
+[Consequences (all)]
+splice_acceptor_variant	98
+splice_donor_variant	43
+stop_gained	12403
+frameshift_variant	11139
+stop_lost	439
+start_lost	509
+inframe_insertion	412
+inframe_deletion	982
+missense_variant	185518
+protein_altering_variant	75
+splice_donor_5th_base_variant	21
+splice_region_variant	10858
+splice_donor_region_variant	15
+incomplete_terminal_codon_variant	50
+start_retained_variant	30
+stop_retained_variant	67
+synonymous_variant	88022
+coding_sequence_variant	322
+5_prime_UTR_variant	9
+3_prime_UTR_variant	14
+intron_variant	178
+NMD_transcript_variant	28191
+
+[Coding consequences]
+stop_gained	12403
+frameshift_variant	11139
+stop_lost	439
+start_lost	509
+inframe_insertion	412
+inframe_deletion	982
+missense_variant	185518
+protein_altering_variant	75
+incomplete_terminal_codon_variant	50
+start_retained_variant	30
+stop_retained_variant	67
+synonymous_variant	88022
+coding_sequence_variant	322
+
+[SIFT summary]
+tolerated_low_confidence	11315
+deleterious_low_confidence	11607
+tolerated	76390
+deleterious	82453
+
+[PolyPhen summary]
+unknown	2324
+possibly_damaging	31381
+probably_damaging	56583
+benign	93628
+
+[Variants by chromosome]
+chr1	229244
+chr2	231223
+chr3	189817
+chr4	192947
+chr5	165515
+chr6	156930
+chr7	158101
+chr8	137925
+chr9	124080
+chr10	149494
+chr11	141749
+chr12	136284
+chr13	97785
+chr14	86571
+chr15	80280
+chr16	92546
+chr17	89349
+chr18	76230
+chr19	70941
+chr20	81744
+chr21	49257
+chr22	49342
+chr11_JH159136v1_alt	2
+chr10_GL383545v1_alt	1
+chr1_KI270760v1_alt	17
+chr18_KI270912v1_alt	1
+chr1_KI270707v1_random	42
+chr14_GL000194v1_random	578
+chr11_KI270827v1_alt	8
+chr11_KI270829v1_alt	4
+chr12_GL877876v1_alt	10
+chr17_KI270730v1_random	2187
+chr19_KI270865v1_alt	5
+chr19_GL383573v1_alt	3
+chr16_GL383557v1_alt	6
+chr18_GL383569v1_alt	5
+chr18_GL383568v1_alt	18
+chr11_KI270903v1_alt	61
+chr14_KI270844v1_alt	11
+chr19_GL949753v2_alt	2
+chr15_GL383555v2_alt	19
+chr13_KI270843v1_alt	1
+chr18_KI270863v1_alt	5
+chr11_KI270927v1_alt	31
+chr16_KI270853v1_alt	139
+chr14_KI270846v1_alt	43
+chr17_GL383563v3_alt	66
+chr1_KI270710v1_random	113
+chr17_KI270907v1_alt	11
+chr14_KI270722v1_random	666
+chr17_KI270909v1_alt	4
+chr1_KI270712v1_random	219
+chr18_GL383571v1_alt	32
+chr1_KI270708v1_random	124
+chr17_KI270860v1_alt	10
+chr19_KI270868v1_alt	5
+chr1_KI270764v1_alt	12
+chr19_GL949746v1_alt	11
+chr17_KI270908v1_alt	43
+chr17_GL000258v2_alt	25
+chr15_KI270906v1_alt	5
+chr1_KI270711v1_random	110
+chr1_KI270709v1_random	716
+chr13_KI270841v1_alt	7
+chr11_KI270830v1_alt	13
+chr11_GL383547v1_alt	6
+chr11_KI270832v1_alt	36
+chr14_KI270724v1_random	540
+chr1_KI270761v1_alt	4
+chr1_KI270706v1_random	389
+chr12_KI270834v1_alt	3
+chr17_KI270729v1_random	3190
+chr17_GL000205v2_random	1260
+chr1_KI270762v1_alt	222
+chr1_KI270714v1_random	20
+chr17_KI270862v1_alt	23
+chr12_KI270836v1_alt	7
+chr12_GL383549v1_alt	6
+chr17_JH159147v1_alt	4
+chr19_KI270938v1_alt	8
+chr11_KI270721v1_random	2
+chr14_KI270726v1_random	5
+chr12_GL383550v2_alt	16
+chr15_KI270851v1_alt	8
+chr19_GL383575v2_alt	31
+chr18_GL383570v1_alt	13
+chr16_KI270856v1_alt	1
+chr17_GL383565v1_alt	1
+chr17_KI270861v1_alt	3
+chr14_GL000225v1_random	12966
+chr19_GL383574v1_alt	7
+chr14_KI270845v1_alt	3
+chr11_KI270831v1_alt	24
+chr19_GL383576v1_alt	8
+chr13_KI270840v1_alt	7
+chr16_KI270728v1_random	531
+chr19_KI270866v1_alt	217
+chr18_KI270864v1_alt	2
+chr16_KI270854v1_alt	10
+chr17_JH159146v1_alt	7
+chr13_KI270842v1_alt	6
+chr12_KI270837v1_alt	1
+chr17_KI270859v1_alt	11
+chr12_GL877875v1_alt	38
+chr17_KI270857v1_alt	116
+chr11_KI270902v1_alt	69
+chr17_KI270858v1_alt	3
+chr12_KI270904v1_alt	22
+chr10_GL383546v1_alt	1
+chr18_GL383572v1_alt	8
+chr15_KI270850v1_alt	32
+chr12_KI270833v1_alt	1
+chr14_KI270725v1_random	258
+chr12_GL383553v2_alt	2
+chr1_KI270765v1_alt	39
+chr19_GL949747v2_alt	5
+chr14_KI270723v1_random	624
+chr11_KI270826v1_alt	2
+chr12_KI270835v1_alt	27
+chr1_KI270713v1_random	176
+chr1_GL383520v2_alt	10
+chr15_GL383554v1_alt	2
+chr11_JH159137v1_alt	20
+chr14_KI270847v1_alt	2
+chr14_GL000009v2_random	506
+chr13_KI270838v1_alt	4
+chr1_KI270763v1_alt	2
+chr15_KI270849v1_alt	7
+chr15_KI270905v1_alt	191
+chr13_KI270839v1_alt	4
+chr10_KI270824v1_alt	14
+chr15_KI270848v1_alt	25
+chr12_GL383551v1_alt	9
+chr1_KI270892v1_alt	3
+chr19_GL949752v1_alt	9
+chr16_GL383556v1_alt	11
+chr1_KI270759v1_alt	14
+chr18_KI270911v1_alt	13
+chr1_KI270766v1_alt	20
+chr22_KI270732v1_random	203
+chr21_KI270874v1_alt	8
+chr2_KI270775v1_alt	5
+chr22_KI270876v1_alt	8
+chr22_KI270734v1_random	76
+chr22_KI270928v1_alt	12
+chr2_KI270776v1_alt	6
+chr2_KI270773v1_alt	10
+chr21_KI270872v1_alt	4
+chr20_KI270870v1_alt	9
+chr22_KI270736v1_random	4736
+chr22_GL383582v2_alt	2
+chr21_GL383580v2_alt	1
+chr2_GL582966v2_alt	2
+chr22_KI270735v1_random	692
+chr22_KI270733v1_random	424
+chr2_GL383522v1_alt	8
+chr2_KI270774v1_alt	24
+chr22_KI270875v1_alt	10
+chr20_KI270869v1_alt	7
+chr2_GL383521v1_alt	3
+chr2_KI270772v1_alt	124
+chr2_KI270771v1_alt	1
+chr21_GL383581v2_alt	24
+chr21_KI270873v1_alt	2
+chr22_KB663609v1_alt	1
+chr22_KI270738v1_random	610
+chr22_GL383583v2_alt	3
+chr2_KI270768v1_alt	24
+chr22_KI270737v1_random	150
+chr22_KI270739v1_random	39
+chr2_KI270894v1_alt	47
+chr2_KI270769v1_alt	7
+chr22_KI270879v1_alt	39
+chr21_GL383578v2_alt	11
+chr22_KI270877v1_alt	16
+chr22_KI270731v1_random	81
+chr21_GL383579v2_alt	2
+chr2_KI270716v1_random	36
+chr20_KI270871v1_alt	19
+chr22_KI270878v1_alt	50
+chr3_KI270779v1_alt	43
+chr3_GL383526v1_alt	5
+chr3_KI270778v1_alt	3
+chr3_KI270780v1_alt	15
+chr3_KI270924v1_alt	14
+chr3_KI270777v1_alt	3
+chr3_KI270782v1_alt	5
+chr3_KI270781v1_alt	8
+chr3_KI270895v1_alt	3
+chr3_GL000221v1_random	111
+chr3_KI270784v1_alt	12
+chr3_JH636055v2_alt	1
+chr3_KI270937v1_alt	19
+chr3_KI270936v1_alt	4
+chr3_KI270783v1_alt	12
+chr3_KI270935v1_alt	14
+chr4_KI270786v1_alt	38
+chr4_KI270788v1_alt	4
+chr4_KI270789v1_alt	18
+chr4_KI270785v1_alt	6
+chr4_KI270925v1_alt	55
+chr4_KI270787v1_alt	6
+chr4_KI270896v1_alt	31
+chr4_GL383527v1_alt	22
+chr4_GL000008v2_random	886
+chr4_GL000257v2_alt	30
+chr4_KI270790v1_alt	20
+chr5_KI270897v1_alt	14
+chr5_KI270898v1_alt	2
+chr5_KI270792v1_alt	11
+chr5_KI270794v1_alt	3
+chr5_GL339449v2_alt	36
+chr5_GL383530v1_alt	3
+chr5_GL949742v1_alt	23
+chr5_GL000208v1_random	336
+chr5_GL383532v1_alt	12
+chr5_KI270795v1_alt	16
+chr5_GL383531v1_alt	7
+chr6_GL000253v2_alt	105
+chr6_KI270800v1_alt	1
+chr6_GL000256v2_alt	100
+chr6_GL383533v1_alt	44
+chr6_GL000255v2_alt	98
+chr6_KI270801v1_alt	3
+chr6_KI270802v1_alt	10
+chr6_GL000251v2_alt	61
+chr6_GL000252v2_alt	62
+chr6_GL000254v2_alt	18
+chr6_KI270758v1_alt	1
+chr6_KI270798v1_alt	5
+chr6_KI270799v1_alt	1
+chr6_GL000250v2_alt	3
+chr6_KB021644v2_alt	9
+chr6_KI270797v1_alt	7
+chr7_KI270804v1_alt	6
+chr7_KI270899v1_alt	18
+chr7_KI270803v1_alt	108
+chr7_KI270806v1_alt	4
+chr7_KI270805v1_alt	9
+chr7_KI270809v1_alt	11
+chr7_KI270808v1_alt	6
+chr7_KI270807v1_alt	3
+chr7_GL383534v2_alt	1
+chr8_KI270900v1_alt	27
+chr8_KI270817v1_alt	8
+chr8_KI270820v1_alt	12
+chr8_KI270818v1_alt	22
+chr8_KI270819v1_alt	10
+chr8_KI270815v1_alt	3
+chr8_KI270822v1_alt	13
+chr8_KI270901v1_alt	7
+chr8_KI270816v1_alt	5
+chr8_KI270821v1_alt	114
+chr8_KI270813v1_alt	15
+chr8_KI270810v1_alt	21
+chr8_KI270926v1_alt	3
+chr8_KI270812v1_alt	3
+chr9_KI270717v1_random	8
+chr9_KI270720v1_random	279
+chr9_KI270719v1_random	259
+chr9_GL383542v1_alt	17
+chr9_KI270718v1_random	77
+chr9_GL383541v1_alt	1
+chrM	40
+chrUn_KI270757v1	1159
+chrUn_KI270442v1	6649
+chrUn_KI270751v1	588
+chrUn_GL000214v1	324
+chrUn_GL000220v1	160
+chrUn_KI270333v1	354
+chrUn_GL000224v1	435
+chrUn_KI270744v1	557
+chrUn_KI270337v1	156
+chrUn_KI270438v1	2298
+chrUn_KI270753v1	40
+chrUn_GL000216v2	6044
+chrUn_KI270742v1	268
+chrUn_KI270755v1	6
+chrUn_KI270519v1	1627
+chrUn_KI270521v1	19
+chrUn_GL000213v1	14
+chrUn_KI270747v1	116
+chrUn_KI270336v1	120
+chrUn_KI270749v1	228
+chrUn_KI270748v1	8
+chrUn_KI270330v1	21
+chrUn_KI270466v1	92
+chrUn_KI270741v1	17
+chrUn_GL000195v1	574
+chrUn_KI270754v1	191
+chrUn_KI270756v1	485
+chrUn_KI270750v1	306
+chrUn_KI270581v1	5
+chrUn_KI270743v1	382
+chrUn_GL000219v1	1425
+chrUn_GL000218v1	439
+chrUn_KI270745v1	30
+chrUn_KI270538v1	737
+chrX_KI270913v1_alt	24
+chrX	57581
+chrX_KI270880v1_alt	5
+chrY	25498
+
+[Distribution of variants on chromosome chr1]
+0	756
+1	1976
+2	1026
+3	1601
+4	1478
+5	1360
+6	1235
+7	1225
+8	1142
+9	1190
+10	1163
+11	1507
+12	861
+13	859
+14	1087
+15	1245
+16	1630
+17	1253
+18	1335
+19	1100
+20	1118
+21	1237
+22	1255
+23	1276
+24	1104
+25	994
+26	1022
+27	1075
+28	840
+29	1174
+30	1068
+31	1223
+32	925
+33	1068
+34	959
+35	834
+36	1100
+37	945
+38	1052
+39	956
+40	1004
+41	984
+42	1090
+43	872
+44	939
+45	900
+46	984
+47	905
+48	938
+49	587
+50	610
+51	678
+52	909
+53	1259
+54	1369
+55	1025
+56	1104
+57	915
+58	1035
+59	889
+60	815
+61	962
+62	1069
+63	1087
+64	992
+65	931
+66	1042
+67	1058
+68	941
+69	758
+70	888
+71	760
+72	728
+73	1024
+74	863
+75	981
+76	998
+77	850
+78	994
+79	966
+80	872
+81	961
+82	906
+83	882
+84	1054
+85	810
+86	929
+87	859
+88	759
+89	956
+90	760
+91	1252
+92	986
+93	805
+94	1150
+95	864
+96	903
+97	742
+98	840
+99	1009
+100	934
+101	907
+102	1155
+103	688
+104	1118
+105	917
+106	916
+107	1004
+108	908
+109	1227
+110	1181
+111	1226
+112	975
+113	831
+114	951
+115	1258
+116	678
+117	1075
+118	917
+119	1109
+120	418
+121	480
+122	151
+123	19
+124	310
+125	1370
+126	0
+127	0
+128	0
+129	0
+130	0
+131	0
+132	0
+133	0
+134	0
+135	0
+136	0
+137	0
+138	0
+139	0
+140	0
+141	0
+142	0
+143	2461
+144	151
+145	528
+146	444
+147	1052
+148	445
+149	388
+150	971
+151	1262
+152	966
+153	944
+154	1185
+155	942
+156	1368
+157	1075
+158	1388
+159	928
+160	1256
+161	1085
+162	1188
+163	989
+164	1102
+165	1161
+166	1171
+167	932
+168	855
+169	1125
+170	957
+171	1106
+172	986
+173	727
+174	833
+175	1116
+176	908
+177	733
+178	690
+179	1231
+180	998
+181	1052
+182	953
+183	1128
+184	858
+185	765
+186	830
+187	1087
+188	1311
+189	863
+190	891
+191	771
+192	839
+193	1063
+194	832
+195	927
+196	854
+197	838
+198	573
+199	701
+200	938
+201	1401
+202	1236
+203	1186
+204	1249
+205	1329
+206	845
+207	1106
+208	1042
+209	979
+210	975
+211	910
+212	1190
+213	907
+214	1119
+215	825
+216	894
+217	922
+218	936
+219	1127
+220	926
+221	871
+222	1005
+223	984
+224	1153
+225	1004
+226	873
+227	996
+228	872
+229	945
+230	1260
+231	915
+232	1007
+233	1003
+234	869
+235	947
+236	1017
+237	1007
+238	949
+239	930
+240	937
+241	1071
+242	1173
+243	105
+244	1144
+245	751
+246	1253
+247	1453
+248	946
+
+[Distribution of variants on chromosome chr10]
+0	1050
+1	1664
+2	1404
+3	1508
+4	1147
+5	1627
+6	1441
+7	1144
+8	1312
+9	863
+10	932
+11	1239
+12	1386
+13	1577
+14	1142
+15	1070
+16	1006
+17	1061
+18	1111
+19	992
+20	1068
+21	620
+22	552
+23	567
+24	887
+25	961
+26	968
+27	975
+28	1235
+29	1276
+30	1226
+31	772
+32	1058
+33	1206
+34	802
+35	704
+36	987
+37	675
+38	3036
+39	1471
+40	588
+41	6503
+42	1755
+43	1096
+44	1086
+45	525
+46	895
+47	688
+48	1070
+49	1244
+50	1105
+51	841
+52	1174
+53	1051
+54	1292
+55	945
+56	1370
+57	1226
+58	1083
+59	1016
+60	982
+61	839
+62	1022
+63	1001
+64	845
+65	1020
+66	1211
+67	781
+68	1286
+69	1520
+70	1254
+71	1274
+72	750
+73	715
+74	768
+75	735
+76	913
+77	854
+78	910
+79	1241
+80	1099
+81	801
+82	759
+83	1083
+84	820
+85	791
+86	1141
+87	730
+88	884
+89	994
+90	968
+91	846
+92	769
+93	1195
+94	844
+95	1119
+96	1031
+97	1197
+98	1108
+99	1182
+100	958
+101	940
+102	1085
+103	1039
+104	1075
+105	762
+106	991
+107	855
+108	956
+109	927
+110	1036
+111	1109
+112	840
+113	1001
+114	1085
+115	963
+116	1165
+117	1118
+118	862
+119	1366
+120	1337
+121	1244
+122	1093
+123	1288
+124	1420
+125	1083
+126	1186
+127	1504
+128	1130
+129	1185
+130	1337
+131	1418
+132	1293
+133	1286
+
+[Distribution of variants on chromosome chr10_GL383545v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr10_GL383546v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr10_KI270824v1_alt]
+0	14
+
+[Distribution of variants on chromosome chr11]
+0	1059
+1	1014
+2	969
+3	1395
+4	1334
+5	1668
+6	1435
+7	994
+8	1333
+9	1132
+10	1192
+11	1376
+12	1121
+13	1215
+14	726
+15	1081
+16	861
+17	967
+18	1228
+19	1361
+20	1249
+21	1280
+22	1045
+23	1310
+24	1056
+25	1245
+26	1215
+27	1016
+28	827
+29	731
+30	937
+31	625
+32	1142
+33	1013
+34	1306
+35	964
+36	1032
+37	1124
+38	1048
+39	895
+40	798
+41	1024
+42	1050
+43	859
+44	1282
+45	1112
+46	837
+47	1113
+48	1894
+49	966
+50	1435
+51	338
+52	393
+53	475
+54	1115
+55	1153
+56	561
+57	1013
+58	1018
+59	823
+60	1101
+61	1115
+62	1128
+63	1142
+64	1376
+65	1249
+66	999
+67	1383
+68	1160
+69	1427
+70	1206
+71	1365
+72	1025
+73	810
+74	1059
+75	890
+76	1035
+77	753
+78	1039
+79	825
+80	893
+81	1049
+82	917
+83	867
+84	776
+85	788
+86	1065
+87	1210
+88	1102
+89	590
+90	808
+91	822
+92	957
+93	1219
+94	1161
+95	950
+96	906
+97	952
+98	1251
+99	1121
+100	1018
+101	1108
+102	1091
+103	1172
+104	975
+105	975
+106	856
+107	965
+108	913
+109	759
+110	865
+111	874
+112	1127
+113	1059
+114	1166
+115	796
+116	1005
+117	1197
+118	1284
+119	1371
+120	1075
+121	1049
+122	1061
+123	1109
+124	1086
+125	1189
+126	1314
+127	787
+128	1110
+129	926
+130	1088
+131	1152
+132	895
+133	949
+134	981
+135	131
+
+[Distribution of variants on chromosome chr11_GL383547v1_alt]
+0	6
+
+[Distribution of variants on chromosome chr11_JH159136v1_alt]
+0	2
+
+[Distribution of variants on chromosome chr11_JH159137v1_alt]
+0	20
+
+[Distribution of variants on chromosome chr11_KI270721v1_random]
+0	2
+
+[Distribution of variants on chromosome chr11_KI270826v1_alt]
+0	2
+
+[Distribution of variants on chromosome chr11_KI270827v1_alt]
+0	8
+
+[Distribution of variants on chromosome chr11_KI270829v1_alt]
+0	4
+
+[Distribution of variants on chromosome chr11_KI270830v1_alt]
+0	13
+
+[Distribution of variants on chromosome chr11_KI270831v1_alt]
+0	24
+
+[Distribution of variants on chromosome chr11_KI270832v1_alt]
+0	36
+
+[Distribution of variants on chromosome chr11_KI270902v1_alt]
+0	69
+
+[Distribution of variants on chromosome chr11_KI270903v1_alt]
+0	61
+
+[Distribution of variants on chromosome chr11_KI270927v1_alt]
+0	31
+
+[Distribution of variants on chromosome chr12]
+0	996
+1	1075
+2	1204
+3	1318
+4	1184
+5	1185
+6	1320
+7	1080
+8	1395
+9	1329
+10	1057
+11	700
+12	1002
+13	1134
+14	1147
+15	899
+16	835
+17	921
+18	794
+19	1205
+20	1294
+21	1140
+22	808
+23	860
+24	1043
+25	1215
+26	994
+27	1044
+28	715
+29	1068
+30	1487
+31	1007
+32	979
+33	1061
+34	1223
+35	298
+36	417
+37	1814
+38	1007
+39	824
+40	1214
+41	942
+42	1158
+43	955
+44	661
+45	914
+46	1070
+47	1293
+48	1101
+49	925
+50	1101
+51	1114
+52	1686
+53	1098
+54	1175
+55	957
+56	1143
+57	1055
+58	740
+59	700
+60	874
+61	1052
+62	942
+63	1071
+64	1026
+65	795
+66	974
+67	921
+68	900
+69	1092
+70	951
+71	959
+72	682
+73	776
+74	689
+75	972
+76	913
+77	992
+78	710
+79	581
+80	755
+81	770
+82	797
+83	1084
+84	738
+85	582
+86	758
+87	780
+88	654
+89	825
+90	876
+91	905
+92	1034
+93	945
+94	1127
+95	1102
+96	844
+97	944
+98	944
+99	845
+100	838
+101	816
+102	814
+103	1059
+104	1060
+105	998
+106	1037
+107	1087
+108	1181
+109	1243
+110	723
+111	813
+112	970
+113	1216
+114	1129
+115	1095
+116	966
+117	1258
+118	1043
+119	1030
+120	1134
+121	1166
+122	1190
+123	1002
+124	1550
+125	1124
+126	961
+127	1344
+128	1509
+129	1435
+130	1600
+131	1516
+132	1795
+133	321
+
+[Distribution of variants on chromosome chr12_GL383549v1_alt]
+0	6
+
+[Distribution of variants on chromosome chr12_GL383550v2_alt]
+0	16
+
+[Distribution of variants on chromosome chr12_GL383551v1_alt]
+0	9
+
+[Distribution of variants on chromosome chr12_GL383553v2_alt]
+0	2
+
+[Distribution of variants on chromosome chr12_GL877875v1_alt]
+0	38
+
+[Distribution of variants on chromosome chr12_GL877876v1_alt]
+0	10
+
+[Distribution of variants on chromosome chr12_KI270833v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr12_KI270834v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr12_KI270835v1_alt]
+0	27
+
+[Distribution of variants on chromosome chr12_KI270836v1_alt]
+0	7
+
+[Distribution of variants on chromosome chr12_KI270837v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr12_KI270904v1_alt]
+0	22
+
+[Distribution of variants on chromosome chr13]
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+11	0
+12	0
+13	0
+14	0
+15	0
+16	1
+17	1
+18	902
+19	1503
+20	1353
+21	1207
+22	1161
+23	1278
+24	1601
+25	1034
+26	1368
+27	1258
+28	1035
+29	1387
+30	1132
+31	1240
+32	883
+33	916
+34	913
+35	932
+36	1149
+37	1115
+38	1080
+39	1217
+40	1045
+41	906
+42	1145
+43	1010
+44	890
+45	875
+46	1160
+47	1076
+48	883
+49	1124
+50	853
+51	756
+52	1023
+53	846
+54	922
+55	1026
+56	666
+57	830
+58	851
+59	1015
+60	909
+61	937
+62	845
+63	1195
+64	718
+65	805
+66	954
+67	788
+68	960
+69	1100
+70	1033
+71	812
+72	926
+73	1066
+74	969
+75	1073
+76	991
+77	737
+78	1053
+79	873
+80	797
+81	892
+82	717
+83	957
+84	791
+85	1033
+86	709
+87	632
+88	1006
+89	902
+90	896
+91	835
+92	716
+93	1048
+94	1099
+95	1160
+96	788
+97	897
+98	1304
+99	980
+100	1015
+101	953
+102	964
+103	1048
+104	1017
+105	1078
+106	1036
+107	1097
+108	1163
+109	1107
+110	1721
+111	1172
+112	978
+113	1624
+114	341
+
+[Distribution of variants on chromosome chr13_KI270838v1_alt]
+0	4
+
+[Distribution of variants on chromosome chr13_KI270839v1_alt]
+0	4
+
+[Distribution of variants on chromosome chr13_KI270840v1_alt]
+0	7
+
+[Distribution of variants on chromosome chr13_KI270841v1_alt]
+0	7
+
+[Distribution of variants on chromosome chr13_KI270842v1_alt]
+0	6
+
+[Distribution of variants on chromosome chr13_KI270843v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr14]
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+11	0
+12	0
+13	0
+14	0
+15	0
+16	136
+17	0
+18	303
+19	1015
+20	1412
+21	1355
+22	1303
+23	1032
+24	1348
+25	952
+26	844
+27	807
+28	692
+29	702
+30	804
+31	854
+32	1002
+33	881
+34	1150
+35	838
+36	1162
+37	947
+38	862
+39	1002
+40	1048
+41	1015
+42	827
+43	765
+44	784
+45	907
+46	946
+47	1030
+48	805
+49	1008
+50	1194
+51	1183
+52	1226
+53	1018
+54	886
+55	1057
+56	1158
+57	884
+58	922
+59	835
+60	874
+61	986
+62	963
+63	696
+64	1056
+65	983
+66	773
+67	932
+68	999
+69	990
+70	1200
+71	840
+72	1216
+73	1009
+74	1130
+75	1033
+76	1305
+77	1423
+78	1044
+79	903
+80	847
+81	884
+82	865
+83	750
+84	840
+85	975
+86	955
+87	981
+88	949
+89	1111
+90	1192
+91	858
+92	1402
+93	0
+94	834
+95	1463
+96	1008
+97	944
+98	1049
+99	1219
+100	1007
+101	919
+102	851
+103	1199
+104	1455
+105	715
+106	43
+107	0
+
+[Distribution of variants on chromosome chr14_GL000009v2_random]
+0	506
+
+[Distribution of variants on chromosome chr14_GL000194v1_random]
+0	578
+
+[Distribution of variants on chromosome chr14_GL000225v1_random]
+0	12966
+
+[Distribution of variants on chromosome chr14_KI270722v1_random]
+0	666
+
+[Distribution of variants on chromosome chr14_KI270723v1_random]
+0	624
+
+[Distribution of variants on chromosome chr14_KI270724v1_random]
+0	540
+
+[Distribution of variants on chromosome chr14_KI270725v1_random]
+0	258
+
+[Distribution of variants on chromosome chr14_KI270726v1_random]
+0	5
+
+[Distribution of variants on chromosome chr14_KI270844v1_alt]
+0	11
+
+[Distribution of variants on chromosome chr14_KI270845v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr14_KI270846v1_alt]
+0	30
+1	13
+
+[Distribution of variants on chromosome chr14_KI270847v1_alt]
+0	0
+1	2
+
+[Distribution of variants on chromosome chr15]
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+11	0
+12	0
+13	0
+14	0
+15	0
+16	0
+17	848
+18	152
+19	635
+20	1233
+21	229
+22	620
+23	831
+24	1174
+25	1269
+26	982
+27	860
+28	198
+29	49
+30	61
+31	33
+32	98
+33	1346
+34	1124
+35	932
+36	1027
+37	677
+38	1099
+39	989
+40	1210
+41	959
+42	1008
+43	787
+44	478
+45	986
+46	978
+47	936
+48	784
+49	875
+50	939
+51	965
+52	1038
+53	1172
+54	1217
+55	994
+56	1004
+57	1383
+58	1028
+59	1119
+60	1053
+61	1038
+62	1082
+63	1130
+64	1061
+65	800
+66	958
+67	1000
+68	1130
+69	1130
+70	976
+71	1126
+72	971
+73	946
+74	1105
+75	1074
+76	867
+77	940
+78	1405
+79	1190
+80	1048
+81	772
+82	621
+83	785
+84	780
+85	1187
+86	1107
+87	977
+88	1151
+89	1073
+90	1294
+91	1056
+92	1269
+93	1340
+94	818
+95	704
+96	943
+97	954
+98	1253
+99	1193
+100	1483
+101	1164
+
+[Distribution of variants on chromosome chr15_GL383554v1_alt]
+0	2
+
+[Distribution of variants on chromosome chr15_GL383555v2_alt]
+0	19
+
+[Distribution of variants on chromosome chr15_KI270848v1_alt]
+0	25
+
+[Distribution of variants on chromosome chr15_KI270849v1_alt]
+0	7
+
+[Distribution of variants on chromosome chr15_KI270850v1_alt]
+0	32
+
+[Distribution of variants on chromosome chr15_KI270851v1_alt]
+0	8
+
+[Distribution of variants on chromosome chr15_KI270905v1_alt]
+0	13
+1	41
+2	46
+3	52
+4	36
+5	3
+
+[Distribution of variants on chromosome chr15_KI270906v1_alt]
+0	5
+
+[Distribution of variants on chromosome chr16]
+0	1949
+1	1751
+2	1274
+3	1303
+4	1180
+5	1537
+6	1796
+7	1699
+8	1827
+9	1312
+10	1479
+11	1506
+12	1370
+13	1158
+14	291
+15	26
+16	63
+17	1001
+18	566
+19	1102
+20	1252
+21	687
+22	777
+23	1036
+24	1059
+25	1170
+26	1188
+27	1118
+28	929
+29	699
+30	960
+31	1144
+32	390
+33	447
+34	3219
+35	613
+36	858
+37	101
+38	52
+39	0
+40	0
+41	0
+42	0
+43	0
+44	0
+45	0
+46	1242
+47	735
+48	886
+49	928
+50	1090
+51	987
+52	1062
+53	1026
+54	1130
+55	1191
+56	1228
+57	1420
+58	1344
+59	749
+60	743
+61	669
+62	635
+63	683
+64	878
+65	915
+66	1048
+67	797
+68	864
+69	785
+70	771
+71	952
+72	827
+73	966
+74	1048
+75	1318
+76	913
+77	1494
+78	1340
+79	1256
+80	1316
+81	1807
+82	1354
+83	1617
+84	2139
+85	1550
+86	1587
+87	1523
+88	1925
+89	1675
+90	244
+
+[Distribution of variants on chromosome chr16_GL383556v1_alt]
+0	11
+
+[Distribution of variants on chromosome chr16_GL383557v1_alt]
+0	6
+
+[Distribution of variants on chromosome chr16_KI270728v1_random]
+0	49
+1	482
+
+[Distribution of variants on chromosome chr16_KI270853v1_alt]
+0	57
+1	51
+2	31
+
+[Distribution of variants on chromosome chr16_KI270854v1_alt]
+0	10
+
+[Distribution of variants on chromosome chr16_KI270856v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr17]
+0	858
+1	606
+2	1187
+3	1366
+4	1550
+5	1230
+6	1432
+7	1671
+8	1328
+9	1251
+10	1226
+11	995
+12	1032
+13	1315
+14	1175
+15	954
+16	875
+17	921
+18	1188
+19	780
+20	763
+21	5423
+22	1579
+23	250
+24	127
+25	187
+26	3475
+27	1058
+28	809
+29	887
+30	671
+31	1036
+32	929
+33	1139
+34	1208
+35	881
+36	42
+37	38
+38	186
+39	1010
+40	807
+41	1047
+42	1183
+43	1114
+44	1232
+45	359
+46	153
+47	1054
+48	1081
+49	1122
+50	1234
+51	890
+52	902
+53	659
+54	765
+55	849
+56	1013
+57	1067
+58	852
+59	834
+60	582
+61	744
+62	843
+63	949
+64	974
+65	1221
+66	1211
+67	1064
+68	1170
+69	975
+70	771
+71	717
+72	877
+73	1316
+74	1315
+75	1501
+76	1442
+77	1150
+78	1448
+79	1455
+80	1528
+81	1518
+82	1531
+83	192
+
+[Distribution of variants on chromosome chr17_GL000205v2_random]
+0	1260
+
+[Distribution of variants on chromosome chr17_GL000258v2_alt]
+0	14
+1	11
+
+[Distribution of variants on chromosome chr17_GL383563v3_alt]
+0	66
+
+[Distribution of variants on chromosome chr17_GL383565v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr17_JH159146v1_alt]
+0	7
+
+[Distribution of variants on chromosome chr17_JH159147v1_alt]
+0	4
+
+[Distribution of variants on chromosome chr17_KI270729v1_random]
+0	3190
+
+[Distribution of variants on chromosome chr17_KI270730v1_random]
+0	2187
+
+[Distribution of variants on chromosome chr17_KI270857v1_alt]
+0	44
+1	35
+2	37
+
+[Distribution of variants on chromosome chr17_KI270858v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr17_KI270859v1_alt]
+0	11
+
+[Distribution of variants on chromosome chr17_KI270860v1_alt]
+0	10
+
+[Distribution of variants on chromosome chr17_KI270861v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr17_KI270862v1_alt]
+0	23
+
+[Distribution of variants on chromosome chr17_KI270907v1_alt]
+0	11
+
+[Distribution of variants on chromosome chr17_KI270908v1_alt]
+0	26
+1	17
+
+[Distribution of variants on chromosome chr17_KI270909v1_alt]
+0	4
+
+[Distribution of variants on chromosome chr18]
+0	1944
+1	986
+2	1318
+3	1239
+4	929
+5	1072
+6	902
+7	920
+8	1111
+9	1154
+10	1320
+11	1100
+12	1097
+13	1200
+14	1201
+15	668
+16	96
+17	81
+18	101
+19	90
+20	162
+21	602
+22	930
+23	883
+24	920
+25	876
+26	867
+27	830
+28	889
+29	913
+30	1024
+31	1000
+32	801
+33	703
+34	631
+35	834
+36	869
+37	1001
+38	961
+39	718
+40	1033
+41	757
+42	924
+43	711
+44	692
+45	1039
+46	934
+47	927
+48	1093
+49	1070
+50	849
+51	790
+52	1061
+53	982
+54	1095
+55	722
+56	860
+57	1147
+58	1146
+59	1106
+60	1009
+61	899
+62	934
+63	1282
+64	979
+65	929
+66	979
+67	1097
+68	1016
+69	1101
+70	1054
+71	1160
+72	1090
+73	1031
+74	1161
+75	1264
+76	1363
+77	1587
+78	1052
+79	1015
+80	347
+
+[Distribution of variants on chromosome chr18_GL383568v1_alt]
+0	18
+
+[Distribution of variants on chromosome chr18_GL383569v1_alt]
+0	5
+
+[Distribution of variants on chromosome chr18_GL383570v1_alt]
+0	13
+
+[Distribution of variants on chromosome chr18_GL383571v1_alt]
+0	32
+
+[Distribution of variants on chromosome chr18_GL383572v1_alt]
+0	8
+
+[Distribution of variants on chromosome chr18_KI270863v1_alt]
+0	5
+
+[Distribution of variants on chromosome chr18_KI270864v1_alt]
+0	2
+
+[Distribution of variants on chromosome chr18_KI270911v1_alt]
+0	13
+
+[Distribution of variants on chromosome chr18_KI270912v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr19]
+0	1449
+1	1639
+2	1561
+3	1419
+4	1545
+5	1263
+6	1407
+7	1673
+8	1735
+9	1341
+10	1285
+11	1070
+12	974
+13	1042
+14	1328
+15	1602
+16	1308
+17	1589
+18	1286
+19	1200
+20	721
+21	867
+22	1012
+23	1408
+24	854
+25	22
+26	28
+27	1898
+28	1282
+29	1383
+30	896
+31	820
+32	1192
+33	1218
+34	895
+35	1639
+36	786
+37	783
+38	1131
+39	1350
+40	1166
+41	1005
+42	867
+43	1459
+44	1194
+45	1374
+46	1113
+47	1328
+48	1507
+49	1343
+50	1211
+51	1603
+52	1450
+53	1588
+54	93
+55	1482
+56	1363
+57	1239
+58	655
+
+[Distribution of variants on chromosome chr19_GL383573v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr19_GL383574v1_alt]
+0	7
+
+[Distribution of variants on chromosome chr19_GL383575v2_alt]
+0	31
+
+[Distribution of variants on chromosome chr19_GL383576v1_alt]
+0	8
+
+[Distribution of variants on chromosome chr19_GL949746v1_alt]
+0	11
+
+[Distribution of variants on chromosome chr19_GL949747v2_alt]
+0	5
+
+[Distribution of variants on chromosome chr19_GL949752v1_alt]
+0	9
+
+[Distribution of variants on chromosome chr19_GL949753v2_alt]
+0	2
+
+[Distribution of variants on chromosome chr19_KI270865v1_alt]
+0	5
+
+[Distribution of variants on chromosome chr19_KI270866v1_alt]
+0	217
+
+[Distribution of variants on chromosome chr19_KI270868v1_alt]
+0	5
+
+[Distribution of variants on chromosome chr19_KI270938v1_alt]
+0	8
+1	0
+
+[Distribution of variants on chromosome chr1_GL383520v2_alt]
+0	10
+
+[Distribution of variants on chromosome chr1_KI270706v1_random]
+0	389
+
+[Distribution of variants on chromosome chr1_KI270707v1_random]
+0	42
+
+[Distribution of variants on chromosome chr1_KI270708v1_random]
+0	124
+
+[Distribution of variants on chromosome chr1_KI270709v1_random]
+0	716
+
+[Distribution of variants on chromosome chr1_KI270710v1_random]
+0	113
+
+[Distribution of variants on chromosome chr1_KI270711v1_random]
+0	110
+
+[Distribution of variants on chromosome chr1_KI270712v1_random]
+0	219
+
+[Distribution of variants on chromosome chr1_KI270713v1_random]
+0	176
+
+[Distribution of variants on chromosome chr1_KI270714v1_random]
+0	20
+
+[Distribution of variants on chromosome chr1_KI270759v1_alt]
+0	14
+
+[Distribution of variants on chromosome chr1_KI270760v1_alt]
+0	17
+
+[Distribution of variants on chromosome chr1_KI270761v1_alt]
+0	4
+
+[Distribution of variants on chromosome chr1_KI270762v1_alt]
+0	222
+
+[Distribution of variants on chromosome chr1_KI270763v1_alt]
+0	2
+
+[Distribution of variants on chromosome chr1_KI270764v1_alt]
+0	12
+
+[Distribution of variants on chromosome chr1_KI270765v1_alt]
+0	39
+
+[Distribution of variants on chromosome chr1_KI270766v1_alt]
+0	20
+
+[Distribution of variants on chromosome chr1_KI270892v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr2]
+0	1284
+1	1311
+2	1172
+3	1443
+4	999
+5	1082
+6	1093
+7	977
+8	1020
+9	1050
+10	1637
+11	1184
+12	1097
+13	851
+14	819
+15	1059
+16	1052
+17	928
+18	870
+19	1087
+20	1148
+21	806
+22	737
+23	1079
+24	1052
+25	901
+26	1084
+27	1022
+28	1098
+29	1344
+30	1125
+31	995
+32	833
+33	1188
+34	1018
+35	1279
+36	985
+37	1217
+38	1059
+39	1065
+40	995
+41	1145
+42	1148
+43	1213
+44	1053
+45	1002
+46	956
+47	794
+48	957
+49	984
+50	1025
+51	892
+52	1054
+53	978
+54	1008
+55	1050
+56	726
+57	990
+58	615
+59	843
+60	791
+61	883
+62	787
+63	714
+64	968
+65	1060
+66	757
+67	1231
+68	1035
+69	966
+70	1140
+71	1096
+72	656
+73	890
+74	1067
+75	1045
+76	1128
+77	828
+78	714
+79	1109
+80	786
+81	775
+82	684
+83	771
+84	889
+85	1136
+86	895
+87	456
+88	939
+89	1811
+90	133
+91	1123
+92	325
+93	328
+94	834
+95	821
+96	813
+97	812
+98	771
+99	847
+100	1045
+101	1036
+102	1095
+103	549
+104	793
+105	1137
+106	1151
+107	869
+108	997
+109	927
+110	415
+111	827
+112	991
+113	1265
+114	828
+115	932
+116	602
+117	1205
+118	1005
+119	979
+120	1101
+121	1043
+122	974
+123	926
+124	988
+125	882
+126	888
+127	1107
+128	1075
+129	1230
+130	848
+131	1258
+132	1389
+133	820
+134	1075
+135	830
+136	1073
+137	1000
+138	890
+139	877
+140	974
+141	1083
+142	581
+143	748
+144	616
+145	725
+146	659
+147	736
+148	768
+149	879
+150	1029
+151	1024
+152	1020
+153	847
+154	789
+155	678
+156	753
+157	646
+158	1063
+159	947
+160	919
+161	749
+162	719
+163	535
+164	779
+165	828
+166	988
+167	812
+168	859
+169	1027
+170	1233
+171	926
+172	1024
+173	909
+174	975
+175	812
+176	1006
+177	1149
+178	896
+179	930
+180	1077
+181	929
+182	837
+183	907
+184	792
+185	751
+186	902
+187	724
+188	945
+189	783
+190	943
+191	1010
+192	720
+193	631
+194	860
+195	868
+196	894
+197	721
+198	853
+199	899
+200	776
+201	969
+202	692
+203	836
+204	750
+205	1004
+206	820
+207	831
+208	970
+209	771
+210	880
+211	1019
+212	795
+213	908
+214	1047
+215	1182
+216	1088
+217	1097
+218	1097
+219	1414
+220	985
+221	946
+222	933
+223	1163
+224	894
+225	853
+226	908
+227	1348
+228	892
+229	944
+230	1226
+231	1144
+232	1192
+233	1044
+234	1262
+235	1125
+236	1060
+237	1149
+238	1292
+239	1341
+240	1593
+241	1058
+242	25
+
+[Distribution of variants on chromosome chr20]
+0	1632
+1	1159
+2	1327
+3	1146
+4	1320
+5	1172
+6	1045
+7	996
+8	1013
+9	1017
+10	1007
+11	922
+12	876
+13	894
+14	843
+15	1067
+16	1080
+17	935
+18	1171
+19	946
+20	908
+21	816
+22	1060
+23	1324
+24	1180
+25	1079
+26	840
+27	116
+28	4055
+29	6579
+30	3746
+31	4571
+32	1034
+33	975
+34	803
+35	967
+36	802
+37	1074
+38	1000
+39	931
+40	739
+41	701
+42	887
+43	1052
+44	1070
+45	1016
+46	1140
+47	1140
+48	926
+49	1176
+50	992
+51	1015
+52	868
+53	1025
+54	949
+55	1120
+56	1150
+57	1126
+58	1168
+59	1090
+60	905
+61	1284
+62	1844
+63	1731
+64	202
+
+[Distribution of variants on chromosome chr20_KI270869v1_alt]
+0	7
+
+[Distribution of variants on chromosome chr20_KI270870v1_alt]
+0	9
+
+[Distribution of variants on chromosome chr20_KI270871v1_alt]
+0	19
+
+[Distribution of variants on chromosome chr21]
+0	0
+1	0
+2	0
+3	0
+4	0
+5	1030
+6	96
+7	2363
+8	741
+9	2199
+10	6596
+11	5
+12	213
+13	890
+14	1110
+15	759
+16	854
+17	735
+18	1029
+19	1031
+20	1124
+21	1059
+22	641
+23	979
+24	953
+25	935
+26	1044
+27	1059
+28	925
+29	871
+30	949
+31	952
+32	934
+33	1025
+34	959
+35	1074
+36	1288
+37	1289
+38	1062
+39	1370
+40	1091
+41	1474
+42	1559
+43	1060
+44	1390
+45	1564
+46	976
+
+[Distribution of variants on chromosome chr21_GL383578v2_alt]
+0	11
+
+[Distribution of variants on chromosome chr21_GL383579v2_alt]
+0	2
+
+[Distribution of variants on chromosome chr21_GL383580v2_alt]
+0	1
+
+[Distribution of variants on chromosome chr21_GL383581v2_alt]
+0	24
+
+[Distribution of variants on chromosome chr21_KI270872v1_alt]
+0	4
+
+[Distribution of variants on chromosome chr21_KI270873v1_alt]
+0	2
+
+[Distribution of variants on chromosome chr21_KI270874v1_alt]
+0	8
+
+[Distribution of variants on chromosome chr22]
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	2138
+11	2961
+12	2422
+13	9
+14	7
+15	387
+16	2016
+17	1317
+18	504
+19	1375
+20	1361
+21	832
+22	986
+23	847
+24	1047
+25	1284
+26	1200
+27	1239
+28	671
+29	1090
+30	1177
+31	873
+32	1272
+33	1079
+34	1095
+35	937
+36	1096
+37	1403
+38	1134
+39	1165
+40	696
+41	1288
+42	968
+43	1398
+44	1487
+45	1355
+46	1302
+47	1287
+48	1692
+49	1680
+50	1265
+
+[Distribution of variants on chromosome chr22_GL383582v2_alt]
+0	2
+
+[Distribution of variants on chromosome chr22_GL383583v2_alt]
+0	3
+
+[Distribution of variants on chromosome chr22_KB663609v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr22_KI270731v1_random]
+0	81
+
+[Distribution of variants on chromosome chr22_KI270732v1_random]
+0	203
+
+[Distribution of variants on chromosome chr22_KI270733v1_random]
+0	424
+
+[Distribution of variants on chromosome chr22_KI270734v1_random]
+0	76
+
+[Distribution of variants on chromosome chr22_KI270735v1_random]
+0	692
+
+[Distribution of variants on chromosome chr22_KI270736v1_random]
+0	4736
+
+[Distribution of variants on chromosome chr22_KI270737v1_random]
+0	150
+
+[Distribution of variants on chromosome chr22_KI270738v1_random]
+0	610
+
+[Distribution of variants on chromosome chr22_KI270739v1_random]
+0	39
+
+[Distribution of variants on chromosome chr22_KI270875v1_alt]
+0	10
+
+[Distribution of variants on chromosome chr22_KI270876v1_alt]
+0	8
+
+[Distribution of variants on chromosome chr22_KI270877v1_alt]
+0	16
+
+[Distribution of variants on chromosome chr22_KI270878v1_alt]
+0	50
+
+[Distribution of variants on chromosome chr22_KI270879v1_alt]
+0	39
+
+[Distribution of variants on chromosome chr22_KI270928v1_alt]
+0	12
+
+[Distribution of variants on chromosome chr2_GL383521v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr2_GL383522v1_alt]
+0	8
+
+[Distribution of variants on chromosome chr2_GL582966v2_alt]
+0	2
+
+[Distribution of variants on chromosome chr2_KI270716v1_random]
+0	36
+
+[Distribution of variants on chromosome chr2_KI270768v1_alt]
+0	24
+
+[Distribution of variants on chromosome chr2_KI270769v1_alt]
+0	7
+
+[Distribution of variants on chromosome chr2_KI270771v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr2_KI270772v1_alt]
+0	124
+
+[Distribution of variants on chromosome chr2_KI270773v1_alt]
+0	10
+
+[Distribution of variants on chromosome chr2_KI270774v1_alt]
+0	24
+
+[Distribution of variants on chromosome chr2_KI270775v1_alt]
+0	5
+
+[Distribution of variants on chromosome chr2_KI270776v1_alt]
+0	6
+
+[Distribution of variants on chromosome chr2_KI270894v1_alt]
+0	47
+
+[Distribution of variants on chromosome chr3]
+0	1181
+1	1267
+2	1146
+3	1512
+4	1246
+5	1288
+6	973
+7	936
+8	1428
+9	1026
+10	1368
+11	981
+12	1046
+13	1360
+14	1205
+15	893
+16	1093
+17	617
+18	525
+19	612
+20	959
+21	1198
+22	1047
+23	1016
+24	957
+25	992
+26	934
+27	963
+28	665
+29	782
+30	946
+31	925
+32	1126
+33	1041
+34	794
+35	865
+36	728
+37	659
+38	1169
+39	1163
+40	966
+41	999
+42	1066
+43	907
+44	941
+45	1130
+46	1327
+47	833
+48	949
+49	1061
+50	886
+51	888
+52	1212
+53	981
+54	876
+55	957
+56	1085
+57	1040
+58	1172
+59	973
+60	1240
+61	1016
+62	1081
+63	758
+64	963
+65	903
+66	951
+67	1051
+68	987
+69	964
+70	777
+71	986
+72	1055
+73	1031
+74	864
+75	2498
+76	892
+77	950
+78	845
+79	840
+80	782
+81	652
+82	804
+83	759
+84	768
+85	833
+86	693
+87	879
+88	1100
+89	739
+90	4626
+91	834
+92	107
+93	433
+94	617
+95	903
+96	862
+97	510
+98	1231
+99	1001
+100	828
+101	942
+102	881
+103	912
+104	1193
+105	976
+106	1134
+107	793
+108	945
+109	909
+110	974
+111	1075
+112	1260
+113	914
+114	784
+115	805
+116	938
+117	802
+118	752
+119	951
+120	921
+121	935
+122	995
+123	968
+124	948
+125	545
+126	1157
+127	993
+128	1006
+129	992
+130	1096
+131	939
+132	841
+133	908
+134	1136
+135	866
+136	727
+137	982
+138	1063
+139	924
+140	854
+141	1076
+142	578
+143	969
+144	731
+145	904
+146	772
+147	521
+148	798
+149	967
+150	911
+151	834
+152	733
+153	934
+154	413
+155	822
+156	869
+157	822
+158	935
+159	666
+160	585
+161	939
+162	1214
+163	911
+164	856
+165	694
+166	482
+167	551
+168	541
+169	914
+170	750
+171	803
+172	1096
+173	725
+174	817
+175	822
+176	1027
+177	957
+178	739
+179	947
+180	646
+181	601
+182	668
+183	1256
+184	1132
+185	1105
+186	1208
+187	1024
+188	1056
+189	969
+190	1035
+191	1354
+192	932
+193	1050
+194	1527
+195	1055
+196	1340
+197	943
+198	61
+
+[Distribution of variants on chromosome chr3_GL000221v1_random]
+0	111
+
+[Distribution of variants on chromosome chr3_GL383526v1_alt]
+0	5
+
+[Distribution of variants on chromosome chr3_JH636055v2_alt]
+0	1
+
+[Distribution of variants on chromosome chr3_KI270777v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr3_KI270778v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr3_KI270779v1_alt]
+0	43
+
+[Distribution of variants on chromosome chr3_KI270780v1_alt]
+0	15
+
+[Distribution of variants on chromosome chr3_KI270781v1_alt]
+0	8
+
+[Distribution of variants on chromosome chr3_KI270782v1_alt]
+0	5
+
+[Distribution of variants on chromosome chr3_KI270783v1_alt]
+0	12
+
+[Distribution of variants on chromosome chr3_KI270784v1_alt]
+0	12
+
+[Distribution of variants on chromosome chr3_KI270895v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr3_KI270924v1_alt]
+0	14
+
+[Distribution of variants on chromosome chr3_KI270935v1_alt]
+0	14
+
+[Distribution of variants on chromosome chr3_KI270936v1_alt]
+0	4
+
+[Distribution of variants on chromosome chr3_KI270937v1_alt]
+0	19
+
+[Distribution of variants on chromosome chr4]
+0	1229
+1	1484
+2	1243
+3	1399
+4	1156
+5	1245
+6	1671
+7	1788
+8	1439
+9	1245
+10	1440
+11	1024
+12	1084
+13	915
+14	1173
+15	1090
+16	880
+17	1112
+18	947
+19	777
+20	849
+21	766
+22	859
+23	858
+24	966
+25	1037
+26	802
+27	1066
+28	1009
+29	822
+30	701
+31	944
+32	705
+33	720
+34	498
+35	1010
+36	1193
+37	1164
+38	1160
+39	1207
+40	1063
+41	796
+42	1111
+43	1142
+44	1071
+45	923
+46	765
+47	903
+48	1019
+49	9335
+50	142
+51	299
+52	889
+53	1036
+54	1049
+55	943
+56	1004
+57	1187
+58	906
+59	1058
+60	1215
+61	844
+62	829
+63	1195
+64	1018
+65	1066
+66	991
+67	1138
+68	435
+69	1190
+70	1283
+71	996
+72	1190
+73	966
+74	946
+75	1072
+76	1131
+77	1177
+78	1124
+79	981
+80	721
+81	959
+82	1056
+83	1024
+84	638
+85	1014
+86	686
+87	1025
+88	900
+89	880
+90	741
+91	725
+92	414
+93	731
+94	996
+95	920
+96	649
+97	724
+98	1072
+99	921
+100	914
+101	756
+102	1049
+103	847
+104	694
+105	862
+106	784
+107	799
+108	1134
+109	973
+110	975
+111	822
+112	853
+113	916
+114	966
+115	1018
+116	796
+117	809
+118	963
+119	996
+120	762
+121	951
+122	729
+123	964
+124	774
+125	1027
+126	881
+127	788
+128	885
+129	871
+130	702
+131	815
+132	1082
+133	689
+134	901
+135	1011
+136	890
+137	973
+138	1124
+139	963
+140	861
+141	893
+142	1028
+143	1175
+144	950
+145	661
+146	772
+147	1045
+148	892
+149	670
+150	676
+151	820
+152	843
+153	1164
+154	1175
+155	829
+156	1036
+157	894
+158	1058
+159	1098
+160	976
+161	997
+162	1047
+163	872
+164	1006
+165	916
+166	983
+167	940
+168	941
+169	917
+170	923
+171	924
+172	905
+173	893
+174	992
+175	791
+176	1242
+177	1100
+178	988
+179	1257
+180	1161
+181	1101
+182	1081
+183	1228
+184	1528
+185	1312
+186	1186
+187	1107
+188	1364
+189	616
+190	504
+
+[Distribution of variants on chromosome chr4_GL000008v2_random]
+0	886
+
+[Distribution of variants on chromosome chr4_GL000257v2_alt]
+0	30
+
+[Distribution of variants on chromosome chr4_GL383527v1_alt]
+0	22
+
+[Distribution of variants on chromosome chr4_KI270785v1_alt]
+0	6
+
+[Distribution of variants on chromosome chr4_KI270786v1_alt]
+0	38
+
+[Distribution of variants on chromosome chr4_KI270787v1_alt]
+0	6
+
+[Distribution of variants on chromosome chr4_KI270788v1_alt]
+0	4
+
+[Distribution of variants on chromosome chr4_KI270789v1_alt]
+0	18
+
+[Distribution of variants on chromosome chr4_KI270790v1_alt]
+0	20
+
+[Distribution of variants on chromosome chr4_KI270896v1_alt]
+0	31
+
+[Distribution of variants on chromosome chr4_KI270925v1_alt]
+0	55
+
+[Distribution of variants on chromosome chr5]
+0	1217
+1	1114
+2	1532
+3	1572
+4	1068
+5	1286
+6	1165
+7	1093
+8	1341
+9	1009
+10	1353
+11	981
+12	811
+13	1059
+14	1014
+15	597
+16	947
+17	1106
+18	979
+19	753
+20	874
+21	792
+22	769
+23	1024
+24	1061
+25	983
+26	964
+27	800
+28	890
+29	962
+30	962
+31	1140
+32	998
+33	891
+34	1118
+35	1110
+36	980
+37	833
+38	863
+39	943
+40	1205
+41	750
+42	943
+43	906
+44	714
+45	561
+46	1208
+47	225
+48	17
+49	1332
+50	1136
+51	691
+52	977
+53	764
+54	1184
+55	1094
+56	982
+57	910
+58	1000
+59	727
+60	849
+61	819
+62	1015
+63	808
+64	645
+65	1026
+66	975
+67	595
+68	732
+69	206
+70	23
+71	414
+72	864
+73	984
+74	1110
+75	806
+76	1173
+77	1027
+78	961
+79	781
+80	1057
+81	902
+82	941
+83	926
+84	827
+85	1037
+86	833
+87	598
+88	700
+89	549
+90	841
+91	761
+92	618
+93	543
+94	587
+95	810
+96	985
+97	943
+98	986
+99	1027
+100	690
+101	866
+102	901
+103	666
+104	968
+105	760
+106	736
+107	833
+108	771
+109	731
+110	750
+111	989
+112	915
+113	1128
+114	867
+115	967
+116	926
+117	571
+118	715
+119	908
+120	776
+121	1151
+122	794
+123	720
+124	996
+125	954
+126	1055
+127	722
+128	778
+129	817
+130	511
+131	697
+132	996
+133	990
+134	859
+135	1305
+136	826
+137	830
+138	964
+139	830
+140	1017
+141	1113
+142	921
+143	890
+144	707
+145	705
+146	874
+147	816
+148	992
+149	1085
+150	996
+151	1210
+152	843
+153	1044
+154	1059
+155	1052
+156	763
+157	1127
+158	820
+159	766
+160	1173
+161	908
+162	752
+163	1069
+164	640
+165	720
+166	834
+167	836
+168	861
+169	921
+170	1166
+171	868
+172	1049
+173	1235
+174	1106
+175	1026
+176	1071
+177	856
+178	1603
+179	1372
+180	1468
+181	388
+
+[Distribution of variants on chromosome chr5_GL000208v1_random]
+0	336
+
+[Distribution of variants on chromosome chr5_GL339449v2_alt]
+0	35
+1	1
+
+[Distribution of variants on chromosome chr5_GL383530v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr5_GL383531v1_alt]
+0	7
+
+[Distribution of variants on chromosome chr5_GL383532v1_alt]
+0	12
+
+[Distribution of variants on chromosome chr5_GL949742v1_alt]
+0	23
+
+[Distribution of variants on chromosome chr5_KI270792v1_alt]
+0	11
+
+[Distribution of variants on chromosome chr5_KI270794v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr5_KI270795v1_alt]
+0	16
+
+[Distribution of variants on chromosome chr5_KI270897v1_alt]
+0	12
+1	2
+
+[Distribution of variants on chromosome chr5_KI270898v1_alt]
+0	2
+
+[Distribution of variants on chromosome chr6]
+0	1261
+1	1296
+2	935
+3	1152
+4	1155
+5	994
+6	1186
+7	1096
+8	966
+9	842
+10	1100
+11	1185
+12	922
+13	1090
+14	1054
+15	939
+16	967
+17	1030
+18	1306
+19	837
+20	916
+21	1000
+22	1073
+23	1163
+24	1115
+25	1139
+26	942
+27	962
+28	456
+29	75
+30	2
+31	27
+32	3
+33	842
+34	1065
+35	1033
+36	1052
+37	1232
+38	942
+39	1202
+40	1215
+41	1160
+42	1164
+43	1221
+44	1350
+45	808
+46	973
+47	1144
+48	835
+49	1027
+50	819
+51	1053
+52	1211
+53	1134
+54	954
+55	964
+56	768
+57	507
+58	390
+59	121
+60	1183
+61	1298
+62	973
+63	1076
+64	875
+65	767
+66	838
+67	1016
+68	689
+69	805
+70	682
+71	879
+72	570
+73	925
+74	650
+75	888
+76	1089
+77	796
+78	1018
+79	796
+80	964
+81	826
+82	864
+83	561
+84	881
+85	1134
+86	772
+87	1043
+88	658
+89	931
+90	819
+91	695
+92	994
+93	730
+94	802
+95	895
+96	982
+97	731
+98	726
+99	1172
+100	931
+101	808
+102	649
+103	947
+104	799
+105	751
+106	954
+107	1025
+108	795
+109	1087
+110	941
+111	692
+112	849
+113	1019
+114	845
+115	893
+116	938
+117	790
+118	967
+119	901
+120	838
+121	819
+122	917
+123	956
+124	859
+125	792
+126	649
+127	656
+128	365
+129	914
+130	947
+131	759
+132	861
+133	832
+134	947
+135	760
+136	796
+137	1062
+138	854
+139	946
+140	611
+141	732
+142	724
+143	992
+144	914
+145	887
+146	711
+147	804
+148	926
+149	719
+150	1196
+151	1021
+152	1018
+153	1052
+154	960
+155	936
+156	870
+157	1255
+158	1074
+159	1182
+160	1165
+161	1121
+162	1050
+163	1048
+164	1202
+165	1201
+166	1277
+167	1535
+168	1463
+169	1101
+170	708
+
+[Distribution of variants on chromosome chr6_GL000250v2_alt]
+0	1
+1	0
+2	0
+3	0
+4	2
+
+[Distribution of variants on chromosome chr6_GL000251v2_alt]
+0	4
+1	13
+2	17
+3	18
+4	9
+
+[Distribution of variants on chromosome chr6_GL000252v2_alt]
+0	1
+1	6
+2	28
+3	26
+4	1
+
+[Distribution of variants on chromosome chr6_GL000253v2_alt]
+0	0
+1	49
+2	42
+3	11
+4	3
+
+[Distribution of variants on chromosome chr6_GL000254v2_alt]
+0	6
+1	6
+2	6
+3	0
+4	0
+
+[Distribution of variants on chromosome chr6_GL000255v2_alt]
+0	0
+1	61
+2	21
+3	6
+4	10
+
+[Distribution of variants on chromosome chr6_GL000256v2_alt]
+0	5
+1	56
+2	9
+3	16
+4	14
+
+[Distribution of variants on chromosome chr6_GL383533v1_alt]
+0	44
+
+[Distribution of variants on chromosome chr6_KB021644v2_alt]
+0	9
+
+[Distribution of variants on chromosome chr6_KI270758v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr6_KI270797v1_alt]
+0	7
+
+[Distribution of variants on chromosome chr6_KI270798v1_alt]
+0	5
+
+[Distribution of variants on chromosome chr6_KI270799v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr6_KI270800v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr6_KI270801v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr6_KI270802v1_alt]
+0	10
+
+[Distribution of variants on chromosome chr7]
+0	1349
+1	1656
+2	1173
+3	932
+4	1459
+5	1451
+6	1275
+7	1255
+8	1102
+9	1129
+10	1222
+11	1042
+12	1151
+13	940
+14	934
+15	850
+16	966
+17	908
+18	747
+19	975
+20	842
+21	1275
+22	1131
+23	855
+24	1058
+25	927
+26	847
+27	979
+28	1125
+29	1038
+30	914
+31	954
+32	1125
+33	1104
+34	690
+35	865
+36	1142
+37	1078
+38	1115
+39	844
+40	794
+41	943
+42	935
+43	1020
+44	1047
+45	1081
+46	980
+47	1189
+48	1001
+49	1248
+50	1197
+51	1002
+52	992
+53	1101
+54	1115
+55	1150
+56	934
+57	1874
+58	781
+59	150
+60	591
+61	1105
+62	2044
+63	926
+64	1254
+65	896
+66	972
+67	1063
+68	1418
+69	914
+70	988
+71	1168
+72	838
+73	717
+74	725
+75	861
+76	653
+77	762
+78	1188
+79	891
+80	895
+81	778
+82	906
+83	979
+84	666
+85	785
+86	775
+87	598
+88	780
+89	949
+90	982
+91	930
+92	588
+93	851
+94	681
+95	958
+96	859
+97	929
+98	1098
+99	832
+100	2175
+101	1468
+102	922
+103	738
+104	946
+105	1009
+106	1032
+107	863
+108	779
+109	1012
+110	760
+111	630
+112	877
+113	777
+114	685
+115	702
+116	765
+117	725
+118	758
+119	624
+120	536
+121	885
+122	675
+123	901
+124	1046
+125	787
+126	894
+127	808
+128	1196
+129	1069
+130	940
+131	1235
+132	1070
+133	1005
+134	1421
+135	1042
+136	856
+137	956
+138	1186
+139	849
+140	968
+141	905
+142	79
+143	555
+144	785
+145	972
+146	755
+147	1214
+148	593
+149	1359
+150	1277
+151	1385
+152	1294
+153	1188
+154	1333
+155	1828
+156	1071
+157	1227
+158	1371
+159	587
+
+[Distribution of variants on chromosome chr7_GL383534v2_alt]
+0	1
+
+[Distribution of variants on chromosome chr7_KI270803v1_alt]
+0	108
+1	0
+
+[Distribution of variants on chromosome chr7_KI270804v1_alt]
+0	6
+
+[Distribution of variants on chromosome chr7_KI270805v1_alt]
+0	9
+
+[Distribution of variants on chromosome chr7_KI270806v1_alt]
+0	4
+
+[Distribution of variants on chromosome chr7_KI270807v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr7_KI270808v1_alt]
+0	6
+
+[Distribution of variants on chromosome chr7_KI270809v1_alt]
+0	11
+
+[Distribution of variants on chromosome chr7_KI270899v1_alt]
+0	18
+
+[Distribution of variants on chromosome chr8]
+0	727
+1	18
+2	311
+3	2004
+4	2056
+5	1952
+6	1848
+7	484
+8	1151
+9	1432
+10	1436
+11	1579
+12	1234
+13	1711
+14	1522
+15	1393
+16	1306
+17	1416
+18	1406
+19	1419
+20	1249
+21	1053
+22	1291
+23	1303
+24	851
+25	1219
+26	1187
+27	1300
+28	1057
+29	974
+30	1015
+31	1014
+32	1079
+33	986
+34	555
+35	704
+36	545
+37	1004
+38	1025
+39	488
+40	1211
+41	1058
+42	770
+43	1008
+44	206
+45	296
+46	774
+47	544
+48	648
+49	1080
+50	942
+51	1099
+52	860
+53	1002
+54	795
+55	1004
+56	991
+57	666
+58	814
+59	737
+60	897
+61	744
+62	988
+63	795
+64	716
+65	863
+66	600
+67	738
+68	932
+69	1095
+70	670
+71	790
+72	962
+73	1044
+74	825
+75	703
+76	651
+77	878
+78	609
+79	634
+80	841
+81	900
+82	898
+83	861
+84	624
+85	640
+86	985
+87	512
+88	739
+89	894
+90	954
+91	677
+92	659
+93	842
+94	1084
+95	939
+96	930
+97	952
+98	658
+99	627
+100	1022
+101	914
+102	857
+103	774
+104	872
+105	747
+106	846
+107	942
+108	621
+109	604
+110	495
+111	682
+112	845
+113	952
+114	723
+115	788
+116	843
+117	861
+118	906
+119	1017
+120	792
+121	991
+122	780
+123	1051
+124	1165
+125	882
+126	1081
+127	996
+128	653
+129	932
+130	1020
+131	1034
+132	1141
+133	1065
+134	1080
+135	789
+136	988
+137	1087
+138	1381
+139	1245
+140	981
+141	1272
+142	1591
+143	1067
+144	1286
+145	105
+
+[Distribution of variants on chromosome chr8_KI270810v1_alt]
+0	21
+
+[Distribution of variants on chromosome chr8_KI270812v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr8_KI270813v1_alt]
+0	15
+
+[Distribution of variants on chromosome chr8_KI270815v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr8_KI270816v1_alt]
+0	5
+
+[Distribution of variants on chromosome chr8_KI270817v1_alt]
+0	8
+
+[Distribution of variants on chromosome chr8_KI270818v1_alt]
+0	22
+
+[Distribution of variants on chromosome chr8_KI270819v1_alt]
+0	10
+
+[Distribution of variants on chromosome chr8_KI270820v1_alt]
+0	12
+
+[Distribution of variants on chromosome chr8_KI270821v1_alt]
+0	114
+
+[Distribution of variants on chromosome chr8_KI270822v1_alt]
+0	13
+
+[Distribution of variants on chromosome chr8_KI270900v1_alt]
+0	27
+
+[Distribution of variants on chromosome chr8_KI270901v1_alt]
+0	7
+
+[Distribution of variants on chromosome chr8_KI270926v1_alt]
+0	3
+
+[Distribution of variants on chromosome chr9]
+0	1434
+1	1246
+2	1342
+3	1074
+4	1436
+5	1003
+6	1166
+7	944
+8	1132
+9	965
+10	1109
+11	1235
+12	1217
+13	1034
+14	1051
+15	1253
+16	1428
+17	1232
+18	940
+19	1096
+20	863
+21	985
+22	1020
+23	894
+24	726
+25	922
+26	843
+27	1176
+28	1191
+29	1017
+30	826
+31	1121
+32	1212
+33	1142
+34	1206
+35	1000
+36	1024
+37	985
+38	1004
+39	646
+40	1540
+41	1361
+42	1091
+43	592
+44	302
+45	137
+46	0
+47	0
+48	0
+49	0
+50	0
+51	0
+52	0
+53	0
+54	0
+55	0
+56	0
+57	0
+58	0
+59	0
+60	301
+61	299
+62	747
+63	1498
+64	622
+65	510
+66	325
+67	260
+68	717
+69	1049
+70	891
+71	921
+72	717
+73	836
+74	934
+75	1011
+76	1132
+77	827
+78	959
+79	777
+80	1138
+81	795
+82	625
+83	983
+84	924
+85	700
+86	892
+87	1250
+88	919
+89	1019
+90	960
+91	844
+92	1090
+93	1135
+94	1013
+95	881
+96	788
+97	855
+98	1254
+99	853
+100	826
+101	569
+102	954
+103	940
+104	1099
+105	810
+106	692
+107	1131
+108	1062
+109	961
+110	1123
+111	855
+112	1299
+113	833
+114	1347
+115	995
+116	930
+117	1088
+118	934
+119	865
+120	898
+121	1038
+122	905
+123	986
+124	884
+125	803
+126	1175
+127	1115
+128	1229
+129	1447
+130	1083
+131	1311
+132	1235
+133	1749
+134	1762
+135	1381
+136	1597
+137	1502
+138	253
+
+[Distribution of variants on chromosome chr9_GL383541v1_alt]
+0	1
+
+[Distribution of variants on chromosome chr9_GL383542v1_alt]
+0	17
+
+[Distribution of variants on chromosome chr9_KI270717v1_random]
+0	8
+
+[Distribution of variants on chromosome chr9_KI270718v1_random]
+0	77
+
+[Distribution of variants on chromosome chr9_KI270719v1_random]
+0	259
+
+[Distribution of variants on chromosome chr9_KI270720v1_random]
+0	279
+
+[Distribution of variants on chromosome chrM]
+0	40
+
+[Distribution of variants on chromosome chrUn_GL000195v1]
+0	574
+
+[Distribution of variants on chromosome chrUn_GL000213v1]
+0	14
+
+[Distribution of variants on chromosome chrUn_GL000214v1]
+0	324
+
+[Distribution of variants on chromosome chrUn_GL000216v2]
+0	6044
+
+[Distribution of variants on chromosome chrUn_GL000218v1]
+0	439
+
+[Distribution of variants on chromosome chrUn_GL000219v1]
+0	1425
+
+[Distribution of variants on chromosome chrUn_GL000220v1]
+0	160
+
+[Distribution of variants on chromosome chrUn_GL000224v1]
+0	435
+
+[Distribution of variants on chromosome chrUn_KI270330v1]
+0	21
+
+[Distribution of variants on chromosome chrUn_KI270333v1]
+0	354
+
+[Distribution of variants on chromosome chrUn_KI270336v1]
+0	120
+
+[Distribution of variants on chromosome chrUn_KI270337v1]
+0	156
+
+[Distribution of variants on chromosome chrUn_KI270438v1]
+0	2298
+
+[Distribution of variants on chromosome chrUn_KI270442v1]
+0	6649
+
+[Distribution of variants on chromosome chrUn_KI270466v1]
+0	92
+
+[Distribution of variants on chromosome chrUn_KI270519v1]
+0	1627
+
+[Distribution of variants on chromosome chrUn_KI270521v1]
+0	19
+
+[Distribution of variants on chromosome chrUn_KI270538v1]
+0	737
+
+[Distribution of variants on chromosome chrUn_KI270581v1]
+0	5
+
+[Distribution of variants on chromosome chrUn_KI270741v1]
+0	17
+
+[Distribution of variants on chromosome chrUn_KI270742v1]
+0	268
+
+[Distribution of variants on chromosome chrUn_KI270743v1]
+0	382
+
+[Distribution of variants on chromosome chrUn_KI270744v1]
+0	557
+
+[Distribution of variants on chromosome chrUn_KI270745v1]
+0	30
+
+[Distribution of variants on chromosome chrUn_KI270747v1]
+0	116
+
+[Distribution of variants on chromosome chrUn_KI270748v1]
+0	8
+
+[Distribution of variants on chromosome chrUn_KI270749v1]
+0	228
+
+[Distribution of variants on chromosome chrUn_KI270750v1]
+0	306
+
+[Distribution of variants on chromosome chrUn_KI270751v1]
+0	588
+
+[Distribution of variants on chromosome chrUn_KI270753v1]
+0	40
+
+[Distribution of variants on chromosome chrUn_KI270754v1]
+0	191
+
+[Distribution of variants on chromosome chrUn_KI270755v1]
+0	6
+
+[Distribution of variants on chromosome chrUn_KI270756v1]
+0	485
+
+[Distribution of variants on chromosome chrUn_KI270757v1]
+0	1159
+
+[Distribution of variants on chromosome chrX]
+0	2
+1	0
+2	167
+3	589
+4	428
+5	561
+6	366
+7	455
+8	434
+9	496
+10	300
+11	254
+12	458
+13	407
+14	335
+15	482
+16	341
+17	303
+18	291
+19	285
+20	212
+21	218
+22	357
+23	411
+24	382
+25	477
+26	281
+27	427
+28	392
+29	286
+30	422
+31	329
+32	437
+33	330
+34	387
+35	336
+36	322
+37	212
+38	481
+39	364
+40	439
+41	444
+42	361
+43	353
+44	358
+45	331
+46	369
+47	531
+48	616
+49	421
+50	326
+51	390
+52	255
+53	451
+54	423
+55	446
+56	557
+57	321
+58	245
+59	25
+60	25
+61	37
+62	518
+63	194
+64	228
+65	240
+66	460
+67	361
+68	359
+69	397
+70	502
+71	486
+72	303
+73	338
+74	362
+75	504
+76	216
+77	262
+78	411
+79	526
+80	287
+81	379
+82	201
+83	304
+84	499
+85	442
+86	360
+87	564
+88	440
+89	316
+90	196
+91	328
+92	328
+93	466
+94	435
+95	364
+96	344
+97	305
+98	369
+99	300
+100	495
+101	405
+102	240
+103	399
+104	351
+105	282
+106	247
+107	260
+108	354
+109	444
+110	271
+111	268
+112	278
+113	459
+114	471
+115	422
+116	493
+117	580
+118	312
+119	552
+120	402
+121	270
+122	418
+123	445
+124	353
+125	435
+126	398
+127	268
+128	321
+129	458
+130	382
+131	366
+132	313
+133	310
+134	371
+135	344
+136	388
+137	367
+138	272
+139	328
+140	408
+141	481
+142	407
+143	508
+144	400
+145	624
+146	375
+147	374
+148	352
+149	398
+150	465
+151	441
+152	433
+153	761
+154	467
+155	260
+156	0
+
+[Distribution of variants on chromosome chrX_KI270880v1_alt]
+0	5
+
+[Distribution of variants on chromosome chrX_KI270913v1_alt]
+0	24
+
+[Distribution of variants on chromosome chrY]
+0	3
+1	0
+2	67
+3	174
+4	127
+5	150
+6	191
+7	228
+8	195
+9	215
+10	9443
+11	8531
+12	208
+13	191
+14	182
+15	224
+16	171
+17	87
+18	37
+19	216
+20	453
+21	181
+22	55
+23	6
+24	7
+25	10
+26	1123
+27	0
+28	0
+29	0
+30	0
+31	0
+32	0
+33	0
+34	0
+35	0
+36	0
+37	0
+38	0
+39	0
+40	0
+41	0
+42	0
+43	0
+44	0
+45	0
+46	0
+47	0
+48	0
+49	0
+50	0
+51	0
+52	0
+53	0
+54	0
+55	0
+56	3023
+57	0
+
+[Position in protein]
+00-10%	30629
+10-20%	30147
+110-120%	2
+20-30%	30121
+30-40%	29858
+40-50%	30114
+50-60%	30080
+60-70%	30345
+70-80%	29393
+80-90%	29023
+90-100%	29815

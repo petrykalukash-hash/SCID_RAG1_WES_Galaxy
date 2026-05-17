@@ -1,0 +1,93 @@
+This is cutadapt 5.2 with Python 3.13.12
+Command line parameters: -j=8 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCA -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT --error-rate=0.1 --times=1 --overlap=3 --action=trim --quality-cutoff=20 -Q 20 --trim-n --minimum-length=20:20 --json=stats.json -o out1.fq -p out2.fq GSRR4088561_forward_fastqsanger.fq SRR4088561_reverse_fastqsanger.fq
+Processing paired-end reads on 8 cores ...
+
+=== Summary ===
+
+Total read pairs processed:         47,950,176
+  Read 1 with adapter:                 781,231 (1.6%)
+  Read 2 with adapter:               1,407,419 (2.9%)
+
+== Read fate breakdown ==
+Pairs that were too short:             124,445 (0.3%)
+Pairs written (passing filters):    47,825,731 (99.7%)
+
+Total basepairs processed: 14,385,052,800 bp
+  Read 1: 7,192,526,400 bp
+  Read 2: 7,192,526,400 bp
+Quality-trimmed:             912,470,931 bp (6.3%)
+  Read 1:   465,668,598 bp
+  Read 2:   446,802,333 bp
+Total written (filtered):  13,448,788,199 bp (93.5%)
+  Read 1: 6,709,818,711 bp
+  Read 2: 6,738,969,488 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCA; Type: regular 3'; Length: 33; Trimmed: 781231 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-33 bp: 3
+
+Bases preceding removed adapters:
+  A: 9.4%
+  C: 46.8%
+  G: 39.6%
+  T: 4.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	748930	749221.5	0	748930
+4	25547	187305.4	0	25547
+5	5699	46826.3	0	5699
+6	654	11706.6	0	654
+7	68	2926.6	0	68
+8	6	731.7	0	6
+9	107	182.9	0	3 104
+10	121	45.7	1	1 120
+11	81	11.4	1	1 80
+12	13	2.9	1	0 13
+13	4	0.7	1	0 4
+15	1	0.0	1	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT; Type: regular 3'; Length: 33; Trimmed: 1407419 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-33 bp: 3
+
+Bases preceding removed adapters:
+  A: 4.6%
+  C: 3.3%
+  G: 2.9%
+  T: 89.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'T' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	533944	749221.5	0	533944
+4	397525	187305.4	0	397525
+5	475165	46826.3	0	475165
+6	393	11706.6	0	393
+7	98	2926.6	0	98
+8	9	731.7	0	9
+9	95	182.9	0	6 89
+10	113	45.7	1	0 113
+11	47	11.4	1	0 47
+12	23	2.9	1	1 22
+13	6	0.7	1	0 6
+14	1	0.2	1	0 1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.

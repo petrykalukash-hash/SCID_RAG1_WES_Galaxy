@@ -1,0 +1,31 @@
+{
+  "title": "Reanaliza publicznych danych WES SRR4088561 w kierunku wariantu RAG1 związanego z SCID",
+  "upload_type": "dataset",
+  "description": "Educational-diagnostic Galaxy WES reanalysis of public SRA run SRR4088561, focused on SCID-associated genes and the RAG1 c.2308G>A, p.E770K / p.Glu770Lys variant. The deposit contains quality-control outputs, annotation summaries, filtered SCID-panel tables, RAG1 variant annotation files, depth checks and workflow documentation. This is not a clinically validated diagnostic report.",
+  "creators": [
+    {
+      "name": "Petryka, Łukasz",
+      "affiliation": "Independent / educational Galaxy analysis"
+    }
+  ],
+  "keywords": [
+    "WES",
+    "Galaxy",
+    "SCID",
+    "RAG1",
+    "SRR4088561",
+    "variant interpretation",
+    "SnpEff",
+    "VEP"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "SRR4088561",
+      "relation": "isDerivedFrom",
+      "scheme": "other"
+    }
+  ],
+  "notes": "Low local coverage at RAG1 p.E770K (DP=2) limits diagnostic confidence. The analysis is for educational/portfolio use."
+}
