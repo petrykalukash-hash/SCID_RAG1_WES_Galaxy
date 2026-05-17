@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Reanaliza publicznych danych WES SRR4088561 w kierunku wariantu RAG1 związanego z SCID"
+title: "Reanalysis of public WES data SRR4088561 for RAG1-associated severe combined immunodeficiency using Galaxy"
 message: "If you use this educational Galaxy WES reanalysis, please cite the Zenodo record."
 type: dataset
 authors:

@@ -1,5 +1,5 @@
 {
-  "title": "Reanaliza publicznych danych WES SRR4088561 w kierunku wariantu RAG1 związanego z SCID",
+  "title": "Reanalysis of public WES data SRR4088561 for RAG1-associated severe combined immunodeficiency using Galaxy",
   "upload_type": "dataset",
   "description": "Educational-diagnostic Galaxy WES reanalysis of public SRA run SRR4088561, focused on SCID-associated genes and the RAG1 c.2308G>A, p.E770K / p.Glu770Lys variant. The deposit contains quality-control outputs, annotation summaries, filtered SCID-panel tables, RAG1 variant annotation files, depth checks and workflow documentation. This is not a clinically validated diagnostic report.",
   "creators": [

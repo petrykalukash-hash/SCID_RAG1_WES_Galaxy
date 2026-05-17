@@ -2,7 +2,7 @@
 
 ## Public input data
 
-Input data are publicly available in NCBI SRA:
+The input sequencing data are publicly available from NCBI SRA:
 
 ```text
 SRR4088561
@@ -16,13 +16,11 @@ This repository contains selected processed outputs generated in Galaxy:
 
 - quality-control reports,
 - alignment summary statistics,
-- SnpEff/VEP annotation summaries,
+- SnpEff and VEP annotation summaries,
 - SCID-panel filtered tables,
 - final RAG1 p.E770K annotation table,
 - local depth files for chr11:36575612.
 
 ## Large files
 
-Large intermediate files, including raw FASTQ, BAM, BAI and full VCF files, are not recommended for GitHub. If needed, they should be deposited in Zenodo or generated reproducibly from SRR4088561.
-
-The Zenodo package may include an additional full SnpSift-extracted variant table as supplementary material.
+Large intermediate files, including raw FASTQ, BAM, BAI and full VCF files, are not recommended for GitHub. If needed, they should be deposited in Zenodo or regenerated from SRR4088561 using the documented workflow.
